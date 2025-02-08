@@ -8,7 +8,7 @@ const About = ({ setScreen }) => {
       className="bg-zinc-900 h-screen flex flex-col justify-center items-center text-left "
       onClick={() => setScreen("home")}
     >
-      <div className="w-1/4 text-white ">
+      <div className="w-1/2 lg:w-1/4 text-white ">
         <p className="  "> Hello, </p>
         <p className=" mt-3 ">
           {" "}
