@@ -17,7 +17,7 @@ const About = ({ setScreen }) => {
           me move forward. I hope you discover the same encouragement here, and
           I wish you strength and success on your journey.
         </p>
-        <p className="mt-3">- Justin</p>
+        <p className="mt-3"> - Justin</p>
       </div>
     </div>
   );

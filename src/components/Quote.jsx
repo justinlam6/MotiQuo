@@ -83,9 +83,7 @@ const Quote = ({ setScreen }) => {
           about
         </a>
         <button
-          className={`text-sm text-white select-none px-2 py-1 m-2 ${
-            timerState ? "bg-red-500" : "bg-green-500"
-          } rounded`}
+          className={`text-sm text-white select-none px-2 py-1 m-2 rounded`}
           onClick={toggleTimer}
         >
           {timerState ? "Turn Off" : "5s Refresh"}
